@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>AstraZeneca</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">About AZ</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Our Science</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Our Focus Area <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Our Science</a></li>
+          <li><a href="#">Pipeline</a></li>
+          <li><a href="#">Publication</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Our Company</a></li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+
+<form class="navbar-form navbar-left" action="https://www.google.com/">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+      </div>
+      <button type="submit" class="btn btn-default">Search</button>
+    </form>
+  
+  </div>
+
+</nav> 
+<div ng-app="">
+ 
+<p> &nbsp;&nbsp;<input type="text" ng-model="name"></p>
+<p>&nbsp;&nbsp;My Type Text is : {{ name }}</p>
+
+</div> 
+
+<div class="container">
+  <h2>Pagination - Active State</h2>
+  <p>Add class .active to let the user know which page he/she is on:</p>
+  <ul class="pagination">
+    <li><a href="#">1</a></li>
+    <li class="active"><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+  </ul>
+</div>  
+
+<div class="container">
+  <h2>Our company</h2>
+  <p>We are a global, science-led biopharmaceutical business and our innovative medicines are used by millions of patients worldwide.Improving health is one of the toughest challenges facing the world today. As a global biopharmaceutical company, AstraZeneca has a key contribution to make through the discovery, development and commercialisation of innovative medicines for important areas of healthcare, including cardiovascular/metabolic disease, cancer and respiratory, inflammatory and autoimmune disease. AstraZeneca India was established in 1979 and is headquartered at Bengaluru, Karnataka. AstraZeneca Pharma India Limited (AZPIL) is the operating company and covers manufacturing, sales and marketing activities of the company in India. It is a listed company and is a subsidiary of AstraZeneca Plc, UK. It has a workforce of over 1500 employees across the country that is committed to deliver life-changing medicines to patients through innovative science and global excellence in development and commercialization. The company has an innovative portfolio in crucial areas of healthcare including cardiovascular and & metabolic diseases, oncology and respiratory. Rated as one of the finest in South East Asia, AstraZeneca’s Indian manufacturing facility has a sophisticated production facility designed to meet the most stringent international standards, conforming to WHO cGMP (current Good Manufacturing Practices) norms. The facility is an ISO 14001 certified company and has a full-fledged environment management system in place. AstraZeneca also launched its first, insourced IT facility, Global Technology Centre (GTC) in Chennai in 2014. Over 2000 IT professionals employed in the GTC focus on providing IT Infrastructure Management, Application Development and Maintenance, Global Project Management, and various allied IT services in support of the company’s worldwide operations. The GTC has close to 150,000 sqft of space fitted out to world class workplace standards located in Tata Ramanujan Info Park in the heart of Chennai. As a global biopharmaceutical company, AstraZeneca believes it can make a meaningful contribution in increasing access to healthcare. AstraZeneca launched its flagship community initiative, the Young Health Programme in India in 2010 in 5 resettlement colonies in Delhi with a focus on prevention of NCDs. The program has completed five years and AstraZeneca has recently launched phase III (2016-2020) in five more resettlement communities in New Delhi. So far the Program has benefitted 199,387 adolescents and reached out to 7,510 members of the wider community including parents, teachers, health workers and policy makers. 2,200 peer educators have been trained as part of the Program. The company maintains a high ethical standard of business practice, promoting its products in a customer focused and value-adding manner, through scientific dissemination of information to the medical fraternity.</p>
+</div>
+
+
+<div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+      80%
+    </div>
+
+
+</body>
+</html>
